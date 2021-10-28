@@ -1,6 +1,9 @@
-<p align="center"
-  <img height="200" src="https://raw.githubusercontent.com/Arthurcn96/payflow/main/assets/images/logofull.png">
+
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/24442087/139295097-f4613c69-015f-4845-8f1e-51e03c520973.png">
 </p>
+
 
 <p align="center">
   <img src="https://img.shields.io/github/last-commit/Arthurcn96/payflow?logo=github&style=for-the-badge">
