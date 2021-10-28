@@ -21,7 +21,7 @@
   <img height="400" src="https://raw.githubusercontent.com/Arthurcn96/payflow/main/assets/images/Telas/Tela6.jpg">
 </p>
 
-A new Flutter project.
+Um projeto desenvolvido em Flutter para organizar todos os boletos. Conecta com a sua conta da Google para carregar seu nome e sua foto de perfil. Conta com uma lista de extrato com todos os boletos, e uma lista dos boletos ativos. Novos boletos podem ser cadastrados usando a camera do celular para tirar uma foto do código de barras.
 
 ## Getting Started
 
