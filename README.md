@@ -1,4 +1,12 @@
-# payflow
+<p align="center"
+  <img height="200" src="https://raw.githubusercontent.com/Arthurcn96/payflow/main/assets/images/logofull.png">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/last-commit/Arthurcn96/payflow?logo=github&style=for-the-badge">
+  <img src="https://img.shields.io/github/repo-size/Arthurcn96/payflow?style=for-the-badge&logo=appveyor">
+  <img src="https://img.shields.io/badge/Status-Finalizando-red?style=for-the-badge&logo=appveyor">
+</p>
 
 A new Flutter project.
 
