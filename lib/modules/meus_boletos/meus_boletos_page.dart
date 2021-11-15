@@ -63,10 +63,6 @@ class _MeusBoletosPageState extends State<MeusBoletosPage> {
                         "Meus Boletos",
                         style: TextStyles.titleBoldHeading,
                       ),
-                      // Text(
-                      //   "Tem ${(_, boletos, __) => boletos.length} boletos",
-                      //   style: TextStyles.captionBody,
-                      // ),
                     ],
                   ),
                 ),

@@ -19,41 +19,35 @@ class _ExtractPageState extends State<ExtractPage> {
   Widget build(BuildContext context) {
     return AnimatedCard(
       direction: AnimatedCardDirection.right,
-      child: SingleChildScrollView(
-        child: Column(
-          children: [
-            Padding(
-              padding: const EdgeInsets.only(top: 24.0, left: 24, right: 24),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(
-                    "Meus Extratos",
-                    style: TextStyles.titleBoldHeading,
-                  ),
-                  // Text(
-                  //   "Tem $size boletos",
-                  //   style: TextStyles.captionBody,
-                  // ),
-                ],
-              ),
+      child: Column(
+        children: [
+          Padding(
+            padding: const EdgeInsets.only(top: 24.0, left: 24, right: 24),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  "Meus Extratos",
+                  style: TextStyles.titleBoldHeading,
+                ),
+              ],
             ),
-            Padding(
-              padding: const EdgeInsets.all(24.0),
-              child: Divider(
-                thickness: 1,
-                height: 1,
-                color: AppColors.stroke,
-              ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(24.0),
+            child: Divider(
+              thickness: 1,
+              height: 1,
+              color: AppColors.stroke,
             ),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 24.0),
-              child: BoletoListWidget(
-                controller: controller,
-              ),
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 24.0),
+            child: BoletoListWidget(
+              controller: controller,
             ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }

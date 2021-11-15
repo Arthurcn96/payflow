@@ -1,4 +1,3 @@
-import 'package:animated_card/animated_card.dart';
 import 'package:flutter/material.dart';
 
 import 'package:payflow/modules/extract/extract_page.dart';
